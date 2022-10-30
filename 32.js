@@ -7,17 +7,20 @@
 const findOrdinal = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 
 
-for (let i = 0; i < findOrdinal.length; i++) {
+
+for (let i; i < findOrdinal.length ; i++) {
+
     if (findOrdinal[i] === 1) {
-      console.log(findOrdinal[i] + "st");
+      console.log(findOridnail[i] + "st");
     }
     else if (findOrdinal[i] === 2) {
-      console.log(findOrdinal[i] + "nd");
+      console.log(findOridnail[i] + "nd");
     }
     else if (findOrdinal[i] === 3) {
-      console.log(findOrdinal[i] + "rd");
+      console.log(findOridnail[i] + "rd");
     }
     else {
-      console.log(findOrdinal[i] + "th");
+      console.log(findOridnail[i] + "th");
     }
   }
+
